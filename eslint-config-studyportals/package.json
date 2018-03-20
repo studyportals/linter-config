@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-studyportals",
+  "version": "0.0.1",
+  "description": "Shared config for studyportals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node ./scripts/preinstall.js"
+  },
+  "author": "lisa <lisa@studyportals.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "eslint": "^4.19.0",
+    "eslint-plugin-html": "^4.0.2",
+    "eslint-plugin-vue": "^4.3.0"
+  }
+}
