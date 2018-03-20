@@ -1,18 +1,31 @@
 {
   "name": "eslint-config-studyportals",
   "version": "0.0.1",
-  "description": "Shared config for studyportals",
+  "description": "Eslint config for studyportals",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "node ./scripts/preinstall.js"
   },
   "author": "lisa <lisa@studyportals.com>",
-  "license": "ISC",
   "dependencies": {
-    "chalk": "^2.3.2",
+    "chalk": "^2.3.2"
+  },
+  "peerDependencies": {
     "eslint": "^4.19.0",
     "eslint-plugin-html": "^4.0.2",
     "eslint-plugin-vue": "^4.3.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/studyportals/linter-config/issues"
+  },
+  "homepage": "https://github.com/studyportals/linter-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studyportals/linter-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
 }
