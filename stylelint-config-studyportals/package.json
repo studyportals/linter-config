@@ -1,0 +1,16 @@
+{
+  "name": "stylelint-config-studyportals",
+  "version": "0.0.1",
+  "description": "",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "stylelint": "^9.1.3",
+    "stylelint-scss": "^2.5.0",
+    "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0"
+  }
+}
