@@ -12,7 +12,7 @@ module.exports = {
         "ServiceLayerClient": true,
         "DataStorage": true
     },
-    "extends": "plugin:vue/essential",
+    "extends": "plugin:vue/recommended",
     "rules": {
         "no-console": "off",
         "no-mixed-spaces-and-tabs": ["error", "smart-tabs"]
