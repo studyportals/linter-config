@@ -2,7 +2,9 @@ module.exports = {
     "processor": ["stylelint-processor-arbitrary-tags"],
     "plugins": ["stylelint-scss"],
     "rules": {
-        "scss/dollar-variable-pattern": "^[A-Z][a-zA-Z]*$",
+		"scss/dollar-variable-pattern": "^[A-Z][a-zA-Z]*$",
+		"scss/at-import-no-partial-leading-underscore": true,
+		"scss/at-import-partial-extension-whitelist": ["scss"],
         "scss/at-mixin-pattern": "^[a-zA-Z]+$",
         "scss/percent-placeholder-pattern": "^[A-Z][a-zA-Z]*$",
         "scss/at-function-pattern": "^[a-zA-Z]*-?[a-zA-Z]*$",
