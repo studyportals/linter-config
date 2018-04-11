@@ -1,6 +1,21 @@
 
+# Install & basic usage
 
-# CSS
+Install the package
+
+```bash
+npm install --save-dev @studyportals/stylelint-config
+```
+
+Add beneath code to your `package.json`
+
+```json
+"stylelint": {
+  "extends": "@studyportals/stylelint-config"
+}
+```
+
+# Guidelines
 
 ## Syntax
 
