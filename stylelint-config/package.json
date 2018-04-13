@@ -1,6 +1,6 @@
 {
   "name": "@studyportals/stylelint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "stylelint.config.js",
   "private": false,

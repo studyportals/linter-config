@@ -26,9 +26,9 @@ Add beneath code to your `package.json`
 * Include one space after `:` for each declaration.
 * Each declaration should appear on its own line for more accurate error reporting.
 * End all declarations with a semi-colon. The last declaration's is optional, but your code is more error prone without it.
-* Prefix property values or color parameters with a leading zero (e.g., `0.5` instead of `.5` and `-0.5px` instead of `-0.5px`).
+* Prefix property values or color parameters with a leading zero (e.g., `0.5` instead of `.5` and `-0.5px` instead of `-.5px`).
 * Uppercase all hex values, e.g., `#FFFFFF`.
-* Use shorthand hex values where available, e.g., `#FFFFFF` instead of `#FFF`.
+* Use long hex values, e.g., `#FFFFFF` instead of `#FFF`.
 * Quote attribute values in selectors, e.g., `input[type="text"]`. They’re only optional in some cases, and it’s a good practice for consistency.
 * Avoid specifying units for zero values, e.g., `margin: 0;` instead of `margin: 0px;`.
 
@@ -52,7 +52,7 @@ Add beneath code to your `package.json`
 
 Avoid unnecessary nesting. Consider nesting only when you must scope.
 
-* We allow a nesting depth of 4 deep, to prevent a to deeply nested elements.
+* We allow a nesting depth of 4 deep, to prevent a too deeply nested elements.
 * Keep a empty line between after each nested selectors, for better readability.
 * Keep a empty line between each declaration and the nested selector.
 
