@@ -1,0 +1,19 @@
+{
+  "name": "@studyportals/browserslist-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserslist": "^3.2.6",
+    "browserslist-ga": "0.0.8",
+    "chalk": "^2.4.1"
+  },
+  "scripts": {
+    "update": "browserslist-ga",
+    "coverage": "node scripts/coverage.js",
+    "browserslist": "node scripts/browserslist.js"
+  },
+  "author": "lisa <lisa@studyportals.com>",
+  "license": "ISC"
+}
