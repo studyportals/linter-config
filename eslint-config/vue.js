@@ -6,6 +6,9 @@ module.exports = {
 	browser: true
   },
   parser: "babel-eslint",
+  parserOptions: {
+	  parser: "babel-eslint"
+  },
   globals: {
 	$: true,
 	$$: true,
