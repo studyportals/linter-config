@@ -12,6 +12,10 @@ module.exports = {
 	ServiceLayerClient: true,
 	DataStorage: true
   },
+  plugins: [
+	"vue",
+	"html"
+  ],
   extends: "plugin:vue/recommended",
   rules: {
 	"no-console": "off",
