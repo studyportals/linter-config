@@ -12,10 +12,6 @@ module.exports = {
 	ServiceLayerClient: true,
 	DataStorage: true
   },
-  plugins: [
-	"vue",
-	"html"
-  ],
   extends: [
 	  "eslint:recommended",
 	  "plugin:vue/recommended"
