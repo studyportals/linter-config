@@ -5,10 +5,6 @@ module.exports = {
 	es6: true,
 	browser: true
   },
-  parser: "babel-eslint",
-  parserOptions: {
-	  parser: "babel-eslint"
-  },
   globals: {
 	$: true,
 	$$: true,
@@ -20,7 +16,10 @@ module.exports = {
 	"vue",
 	"html"
   ],
-  extends: "plugin:vue/recommended",
+  extends: [
+	  "eslint:recommended",
+	  "plugin:vue/recommended"
+  ],
   rules: {
 	"no-console": "off",
 	"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
