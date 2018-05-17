@@ -21,7 +21,7 @@ module.exports = {
 	"no-console": "off",
 	"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
 	"vue/html-indent": [
-		"error",
+		2,
 		"tab",
 		{
 			attribute: 1,
@@ -31,14 +31,14 @@ module.exports = {
 		}
 	],
 	"vue/max-attributes-per-line": [
-	"warning",
-	{
-		singleline: 5,
-		multiline: {
-			max: 2,
-			allowFirstLine: true
+		1,
+		{
+			singleline: 5,
+			multiline: {
+				max: 2,
+				allowFirstLine: true
+			}
 		}
-	}
 	],
 	"vue/attribute-hyphenation": [0]
   }
