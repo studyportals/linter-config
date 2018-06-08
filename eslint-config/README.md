@@ -34,12 +34,12 @@ Add beneath code to your `package.json`
 
 ## Usage within your command line
 
-1. install eslint globally, `npm i -g eslint`
-2. run eslint against your desired file(s), `eslint --ext js,vue MyComponent.vue`
+1. Make sure you have the packages installed.
+2. Run eslint against your desired file(s), `npx eslint --ext js,vue MyComponent.vue`
 
 ## Usage within webpack
 
-1. install eslint-loader, `npm i -D eslint-loader`
+1. Install eslint-loader, `npm i -D eslint-loader`
 2. Add beneath rule to your webpack config file.
 ```js
 // webpack.config.js
