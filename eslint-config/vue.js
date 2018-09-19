@@ -39,6 +39,9 @@ module.exports = {
 			}
 		}
 	],
-	"vue/attribute-hyphenation": [0]
+	"vue/attribute-hyphenation": [0],
+    "vue/html-self-closing": [0],
+    "vue/order-in-components": [0],
+    "vue/attributes-order": [0]
   }
 };
